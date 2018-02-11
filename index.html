@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio web app</title>
+    <link rel="stylesheet" href="./css/pages/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+</head>
+<body>
+    <section id="hero" class="hero bg-black">
+        <header class="wrap cf">
+            <div class="logo-name pull-left">Roman Mazurenko</div>
+            <div class="hamburger pull-right _hamburger">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <nav class="hero-nav pull-right _nav">
+                <ul class="list-unstyled">
+                    <li class="hero-nav-item"><a href="#chapterMySkills">My Skills</a></li>
+                    <li class="hero-nav-item"><a href="#chapterAboutMe">About Me</a></li>
+                    <li class="hero-nav-item"><a href="#chapterMyWork">My Work</a></li>
+                    <li class="hero-nav-item"><a href="#chapterMyClients">My Clients</a></li>
+                    <li class="hero-nav-item"><a href="#chapterMyContacts">Contacts</a></li>
+                </ul>
+            </nav>   
+        </header>
+
+        <div class="section wrap text-center">
+            <p class="prime hero-subtitle text-uppercase">frontend developer</p>
+    
+            <h1 class="hero-title">
+                My Name Is Roman. I Frontend Developer Of Websites.
+            </h1>
+    
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="text-right mobile-text-center">
+                        <button type="button" class="btn-outline btn-large" data-toggle="modal" data-target="#myModal">Learn more</button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                   <h4 class="modal-title text-left">About Me</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="text-left">Hello! My name is Roman. I'm a front-end developer of beautiful, 
+                                        adaprive web sites with a variety of functions. More detailed information about my 
+                                        works you can see in the section "my works".</p>
+                                </div>
+                                <div class="modal-footer">
+                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal finish --> 
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="text-left mobile-text-center">
+                        <button type="button" class="btn-second btn-large" data-toggle="modal" data-target="#myModal1">contact me</button>
+                    </div>
+                     <!-- Modal -->
+                        <div class="modal fade" id="myModal1" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                       <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                       <h4 class="modal-title text-left">My contacts:</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-left">
+                                            tel: +38(067)4094570 </br>
+                                            email: maroni101010@gmail.com </br>
+                                            skype: maroni107
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                         <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     <!-- Modal finish -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section service-section bg-white text-center">
+        <div class="wrap">
+            <h2 id="chapterMySkills" class="h2 mb-2">My Skills</h2>
+            <div class="h5 prime mb-4">
+                    The technologies that I used when developing web sites.
+            </div>
+            <!--skills first part-->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="service-wrap text-center">
+                            <div class="picture">
+                                <img src="../img/html5.png" alt="HTML5">
+                            </div>
+                            <div class="h3 mb-4">
+                                HTML5
+                            </div>
+                            <div class="service-description skill-description mb-4">
+                                    HTML5 is a markup language used for structuring and presenting content on the World Wide Web.
+                                     It is the fifth and current major version of the HTML standard.
+                            </div>
+                            <div>
+                                <a class="btn-prime center styledLink" target="_blanck" href="https://en.wikipedia.org/wiki/HTML5"> learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service-wrap text-center">
+                            <div class="picture">
+                                <img src="../img/css3.png" alt="css3">
+                            </div>
+                            <div class="h3 mb-4">
+                                CSS3
+                            </div>
+                            <div class="service-description skill-description mb-4">
+                                CSS is Cascading Style Sheets, a language used to describe the style of document presentations in web development.
+                            </div>
+                            <a class="btn-prime center styledLink" target="_blanck" href="https://ru.wikipedia.org/wiki/CSS"> learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service-wrap text-center">
+                            <div class="picture">
+                                <img src="../img/js.png" alt="js">
+                            </div>
+                            <div class="h3 mb-4">
+                                JavaScript
+                            </div>
+                            <div class="service-description skill-description mb-4">
+                                JavaScript, often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language.
+                            </div>
+                            <a class="btn-prime center styledLink" target="_blanck" href="https://en.wikipedia.org/wiki/JavaScript"> learn more</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service-wrap text-center">
+                            <div class="picture">
+                                <img src="../img/jquery.png" alt="jquery">
+                            </div>
+                            <div class="h3 mb-4">
+                                jQuery
+                            </div>
+                            <div class="service-description skill-description mb-4">
+                                jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
+                            </div>
+                            <a class="btn-prime center styledLink" target="_blanck" href="https://en.wikipedia.org/wiki/JQuery"> learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <!--skills second part-->
+                <div class="row">
+                        <div class="col-md-3">
+                            <div class="service-wrap text-center">
+                                <div class="picture">
+                                    <img src="../img/reactjs.png" alt="react">
+                                </div>
+                                <div class="h3 mb-4">
+                                   ReactJS
+                                </div>
+                                <div class="service-description skill-description mb-4">
+                                        React - An open source JavaScript library for creating user interfaces
+                                         that addresses the issues of partial refresh of web page content.
+                                </div>
+                                <div>
+                                    <a class="btn-prime center styledLink" target="_blanck" href="https://en.wikipedia.org/wiki/REACT"> learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service-wrap text-center">
+                                <div class="picture">
+                                    <img src="../img/git.png" alt="git">
+                                </div>
+                                <div class="h3 mb-4">
+                                    GIT
+                                </div>
+                                <div class="service-description skill-description mb-4">
+                                        Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people.
+                                </div>
+                                <a class="btn-prime center styledLink" target="_blanck" href="https://en.wikipedia.org/wiki/Git"> learn more</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service-wrap text-center">
+                                <div class="picture">
+                                    <img src="../img/gulp.png" alt="gulp">
+                                </div>
+                                <div class="h3 mb-4">
+                                   GULP
+                                </div>
+                                <div class="service-description skill-description mb-4">
+                                        Gulp.js is an open-source JavaScript toolkit by Fractal Innovations and the open source community at GitHub, 
+                                        used as a streaming build system in front-end web development.
+                                </div>
+                                <a class="btn-prime center styledLink" target="_blanck" href="https://en.wikipedia.org/wiki/Gulp.js"> learn more</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="service-wrap text-center">
+                                <div class="picture">
+                                    <img src="../img/bootstrap.png" alt="bootstrap">
+                                </div>
+                                <div class="h3 mb-4">
+                                    Bootstrap
+                                </div>
+                                <div class="service-description skill-description mb-4">
+                                        Bootstrap is a free and open-source front-end web framework for designing websites and web applications.
+                                </div>
+                                <a class="btn-prime center styledLink" target="_blanck" href="https://en.wikipedia.org/wiki/Bootstrapping"> learn more</a>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="section bg-gray text-center">
+        <div class="wrap">
+            <h2 id="chapterAboutMe" class="h2 mb-2">About Me</h2>
+            <div class="h5 prime mb-4">
+                    Look a little more information about me.
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <img class="circle" src="../img/myfoto.png" alt="My foto">
+                    <p class="h4">Roman Mazurenko</p>
+                    <p><i>Frontend Developer</i></p>
+                    <p><a class="styleLinkEmail" href="mailto:maroni101010@gmail.com">maroni101010@gmail.com</a></p>
+                    <p><a class="styleLinkEmail" href="tel: +380674094570">Tel: +3 8(067)4094570</a></p>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <p><b>Hello! My name is Roman. I'm a front-end developer of web sites.</b></p>
+                    <p>
+                        I have a university degree in engineering and economics. Over the past two years I have completed
+                         several courses in the field of Front-end developer and English language courses.
+                    </p>
+                    <p>
+                        Since the first time I saw on the screen "Hello world!" I realized that this is what I want to devote
+                         to myself! At the moment I have 6 months of experience in freelancing. 
+                    </p>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <p>
+                        I constantly develop skills necessary frontend to the developer and I study new technologies.
+                        I will be happy to put up all my knowledges to create for you a awesome site for your project.
+                            Thank you for visiting my website and looking forward to hearing from you soon!
+                    </p>
+                    <p><a class="styleLinkEmail" href="#">Read more about me...</a></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section bg-white text-center">
+        <div class="wrap">
+            <h2 id="chapterMyWork" class="h2 mb-2">My Work</h2>
+            <div class="h5 prime mb-4">
+                I suggest to get acquainted with my works!
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="https://github.com/Maroni19/portfolio.git" target="_blank">
+                      <img class="styleImgMyWork" src="../img/portfolio.png" alt="Portfolio">
+                      <div class="caption">
+                        <p>My Portfolio...</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="https://github.com/Maroni19/portfolio.git" target="_blank">
+                      <img class="styleImgMyWork" src="../img/nature.png" alt="Nature">
+                      <div class="caption">
+                        <p>My Future Projects...</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="https://github.com/Maroni19/portfolio.git" target="_blank">
+                      <img class="styleImgMyWork" src="../img/fjords.png" alt="Fjords">
+                      <div class="caption">
+                        <p>My Future Projects...</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <a class="btn-prime center styledLink" target="_blanck" href="https://github.com/dashboard">SEE MORE PROJECTS</a>
+        </div>
+    </section>
+
+    <section class="section bg-gray text-center">
+        <div class="wrap">
+            <h2 id="chapterMyClients" class="h2 mb-2">My Clients</h2>
+            <div class="h5 prime mb-4">
+                Find out what my clients say about me!
+            </div>
+            <div id="myCarousel" class="carousel slide bg-gray" data-ride="carousel">
+                    <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                    <!-- Wrapper for slides -->
+                <div class="carousel-inner carusel-box">
+                    <div class="item active">
+                        <img class="imgItem circle mb-4" src="../img/medic.png" alt="foto">
+                        <p><em>Eugene Gulevatyi</em></p>
+                        <blockquote><footer class="mb-3">Medical Clinic "Oberig"</footer></blockquote>
+                        <p>"Thanks to Roman for the excellent site that helped our company raise
+                             the sales of medical equipment. We hope for further cooperation! "</p>
+                    </div>
+                  
+                    <div class="item">
+                        <img class="imgItem circle mb-4" src="../img/sasha.png" alt="foto">
+                        <p><em>Alexandra Krachkovskaya</em></p>
+                        <blockquote><footer class="mb-3">Trading company "Maroni Ltd."</footer></blockquote>
+                        <p>"I am very grateful for the cooperation with Roman, who helped make our site
+                             more interesting and attractive for customers."</p>
+                    </div>
+                  
+                    <div class="item">
+                        <img class="imgItem circle mb-4" src="../img/nata.png" alt="foto">
+                        <p><em>Natalya Chernik</em></p>
+                        <blockquote><footer class="mb-3">Company "Island"</footer></blockquote>
+                        <p>"Our site again works without failures. We all advise cooperation with Roman.
+                             The work was completed on time and qualitatively."</p>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicons glyphicons-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="sr-only ">Next</span>
+                </a> 
+            </div>
+        </div>    
+    </section>
+
+    <section class="section bg-white text-center">
+        <div class="wrap">
+            <h2 id="chapterMyContacts" class="h2 mb-2">Get in Touch</h2>
+            <div class="h5 prime mb-4">
+                    Find out my contacts. I will be glad to cooperate with you!
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mobile-text-center">
+                        <button type="button" class="btn-second btn-large" data-toggle="modal" data-target="#myModal1">contact me</button>
+                    </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal1" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title text-left">My contacts:</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="text-left">
+                                            tel: +38(067)4094570 </br>
+                                            email: maroni101010@gmail.com </br>
+                                            skype: maroni107
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Modal finish -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section bg-black text-center">
+        <div class="wrap">
+            <div class="h5 prime mb-4">
+                &#169; Copyright2017 Roman's Website. All rights reserved.
+            </div>
+            <div>
+                <a href="https://github.com/" target="_blanck"><i class="fa fa-2x fa-github-square"></i></a>
+                <a href="https://www.facebook.com/" target="_blanck"><i class="fa fa-2x fa-facebook-square"></i></a>
+                <a href="mailto:maroni101010@gmail.com" target="_blanck"><i class="fa fa-2x fa-envelope-square"></i></a>
+                <a href="#hero"><i class="fa fa-2x fa-home"></i></a>
+                <a href="https://www.google.com.ua" target="_blanck"><i class="fa fa-2x fa-google"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+    crossorigin="anonymous"></script>
+    
+    <script src="./js/build.js"></script>
+
+</body>
+</html>
